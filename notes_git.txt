@@ -1,0 +1,14 @@
+
+### clonar un repositori que tenim a github: testgit (ho descarrega i crea tots els arxius)
+git clone git://github.com/quims/testgit.git
+
+### ara modifico l'arxiu README.md
+### per enviar l'arxiu modificat a staging status:
+git add README.md
+
+### per confirmar els canvis realitzats a l'arxiu:
+git commit -m "arxiu modificat"
+
+### despres de fer modificacions tornar a pujar tot a github... (demana usuari i password)
+git push https://github.com/quims/testgit.git
+
