@@ -6,8 +6,12 @@ git clone git://github.com/quims/testgit
 ### per enviar l'arxiu modificat a staging status:
 git add README.md
 
-### afegir tots els arxius modificats
+### afegir tots els arxius modificats a staging:
 git add .  
+
+### la primera vegada ens hauriem d'identificar:
+git config --global user.email "usuari@domini.com"
+git config --global user.name "El vostre nom"
 
 ### per confirmar els canvis realitzats a l'arxiu:
 git commit -m "arxiu modificat"
